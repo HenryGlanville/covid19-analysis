@@ -51,6 +51,19 @@ Key variables include:
 - Population
   - `population`
 
+| Field | Description |
+| ------ | ------------- |
+| `iso_code` | SO 3166-1 alpha-3 - three-letter country codes. OWID-defined regions contain prefix 'OWID_'. |
+| `location` | Geographical location. |
+| `date` | Date of observation. |
+| `new_cases`, `weekly_cases`, `total_cases` | Daily new, weekly aggregated and total number of reported cases of COVID-19. |
+| `new_deaths`, `weekly_deaths`, `total_deaths` | Daily new, weekly aggregated and total number of reported deaths attributed to COVID-19. |
+| `daily_vaccinations_raw` | New vaccination doses administered (only calculated for consecutive days). |
+| `daily_vaccinations`, `weekly_vaccinations`, `total_vaccinations` | Daily new (7-day smoothed), weekly aggregated and total vaccination doses administered. |
+| `daily_people_vaccinated`, `weekly_people_vaccinated`, `people_vaccinated` | Daily new (7-day smoothed), weekly aggregated and total number of people who received their first vaccine dose. |
+| `people_fully_vaccinated` | Total number of people who received all doses prescribed by the initial vaccination protocol. |
+| `population` | Population values as of end of 2022. |
+
 Cumulative and rolling values are tracked to support both point-in-time metrics and trend analysis. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
 
 
