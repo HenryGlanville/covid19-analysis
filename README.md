@@ -53,7 +53,7 @@ Cumulative and rolling values are tracked to support both point-in-time metrics 
 
 As of August 2024, over 775 million COVID-19 cases and 7 million deaths have been reported globally. The United States recorded the highest totals, exceeding 100 million cases and 1 million deaths.
 
-On a per capita basis, Cyprus experienced the highest case rate (over 700,000 per million) while Peru reported the highest death rate (approximately 6,500 per million). Conflict-affected countries such as Yemen reported the highest case-fatality rates, with limited healthcare capacity likely a factor.
+On a per capita basis, Cyprus reported the highest case rate (over 700,000 per million) while Peru reported the highest death rate (approximately 6,500 per million). Conflict-affected countries such as Yemen reported the highest case-fatality rates, with limited healthcare capacity likely a factor.
 
 China led in total vaccinations (nearly 3.5 billion), while Gibraltar reported the highest coverage relative to population, though values exceeding 100% suggest inclusion of non-citizens.
 
