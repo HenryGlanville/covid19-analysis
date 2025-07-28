@@ -147,27 +147,37 @@ The technical analysis involved the use of the following tools:
 ### Data Quality and Reporting Limitations
 
 - **Underreporting and inconsistencies:** Many countries applied different protocols for attributing deaths and faced reporting delays. As such, the reported figures likely undercount true cases and deaths. Daily data reflects reported values, not necessarily confirmed.
+
 - **No tracking of unique cases:** Individuals may be recorded as cases multiple times, inflating totals and limiting insights into infection and recovery rates.
+
 - **Gaps in vaccination data:** Some countries lacked consistent vaccine reporting. Smoothed metrics were used to estimate trends where daily data was missing, assuming a uniform rate of change.
 
 ### Metric and Methodological Assumptions
 
 - **Case-fatality as a proxy:** Used to infer disease severity, but it is a limited measure, as it only reflects confirmed cases rather than true infections. Infection fatality rate would offer greater accuracy but requires comprehensive testing data.
-- **Per-million standardisation:** Metrics were normalised to per million population to enable fair comparisons, though this does not account for age structures, comorbidities or healthcare quality. 
+
+- **Per-million standardisation:** Metrics were normalised to per million population to enable fair comparisons, though this does not account for age structures, comorbidities or healthcare quality.
+
 - **120-day vaccine window:** A fixed period was used to evaluate pre- and post- rollout trends. While this assumes a sufficient lag time, it does not capture delayed effects or interference from new variants.
+
 - **First dose signalled start of impact:** The date of the first recorded vaccine dose was used to mark the start of the rollout, but real-world impact depends on broader uptake and dosing intervals.
 
 ### Analytical Scope Decisions
 
 - **Data consolidation:** A unified dataset was created to streamline analysis and improve readability, replacing earlier multi-table approaches that required multiple complex JOINs.
+
 - **Exclusions for clarity:** Countries with populations under 1 million or fewer than 5,000 cumulative cases per million were excluded to minimise noise and focus on materially affected locations.
+
 - **Testing metrics omitted:** Infection rates based on testing volume were not analysed due to inconsistent data availability and to intentionally limit project scope. This remains a strong candidate for future expansion.
+
 - **First-dose focus:** Impact was assessed only for the first recorded vaccine dose; analysis of second doses and boosters was omitted from the scope, but also offers a clear opportunity for future expansion.
 
 ### Interpreting Outcomes
 
-- **Inconclusive post-vaccine increases:** Increases in cases and deaths post-rollout may reflect unrelated factors such as new variants, relaxed restrictions or limited early coverage, rather than vaccine inefficacy. 
+- **Inconclusive post-vaccine increases:** Increases in cases and deaths post-rollout may reflect unrelated factors such as new variants, relaxed restrictions or limited early coverage, rather than vaccine inefficacy.
+
 - **Uncontrolled external influences:** Broader public health policies, behavioural shifts and deployment timing during surges were not directly accounted for but likely influenced trends.
+  
 - **Immune protection lag:** The analysis assumes vaccine efficacy immediately upon first dose, but real-word immunity builds over time with additional doses, which may delay observable effects.
 
 ## Data Source
