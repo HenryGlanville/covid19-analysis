@@ -61,7 +61,7 @@ Vaccine rollout impacts varied significantly. In Morocco, both cases and deaths 
 
 An interactive Tableau dashboard was developed to allow further exploration of trends by location, metric and timeframe. This can be accessed here: [Tableau dashboard](https://public.tableau.com/views/CovidDashboard_17470590080560/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<img width="1710" height="1071" alt="Dashboard" src="https://github.com/user-attachments/assets/a5e82f92-60f7-4723-8f45-350527a7e111" />
+<img width="1710" height="1071" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/d24b3795-4de7-4ebc-b0d6-e7e910b3b91e" />
 
 ## Key Insights
 
