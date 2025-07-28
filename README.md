@@ -26,28 +26,28 @@ The primary objectives of this analysis are to:
 
 This project primarily used data compiled by Our World in Data, which consolidates COVID-19 statistics from the World Health Organisation (WHO), the United Nations (UN) and official government health departments. Three main datasets were used:
 
-- "cases_and_deaths.csv" - Daily reported COVID-19 cases and deaths by location;
-- "vaccinations.csv" - Daily vaccination totals by location;
-- "population_2022.csv" - 2022 population figures for each country/territory.
+- *"cases_and_deaths.csv"* - Daily reported COVID-19 cases and deaths by location;
+- *"vaccinations.csv"* - Daily vaccination totals by location;
+- *"population_2022.csv"* - 2022 population figures for each country/territory.
 
 These datasets were cleaned and consolidated into a single SQL table named CovidData, where each row represents a daily observation for a specific location within the time period of January 2020 to August 2024. This unified format allowed for consistent analysis of relevant pandemic metrics by date and location. This table includes both daily and weekly figures to smooth short-term volatility and enable clearer trend analysis.
 
 Key variables include:
 
 - Location and Time
-  - location, date, iso_code
+  - 'location', 'date', 'iso_code'
 
 - Cases and Deaths
-  - new_cases, weekly_cases, total_cases
-  - new_deaths, weekly_deaths, total_deaths
+  - 'new_cases', 'weekly_cases', 'total_cases'
+  - 'new_deaths', 'weekly_deaths', 'total_deaths'
 
 - Vaccinations
-  - daily_vaccinations, weekly_vaccinations, total_vaccinations
-  - daily_people_vaccinated, weekly_people_vaccinated, people_vaccinated
-  - people_fully_vaccinated
+  - 'daily_vaccinations', 'weekly_vaccinations', 'total_vaccinations'
+  - 'daily_people_vaccinated', 'weekly_people_vaccinated', 'people_vaccinated'
+  - 'people_fully_vaccinated'
 
 - Population
-  - population
+  - 'population'
 
 Cumulative and rolling values are tracked to support both point-in-time metrics and trend analysis. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
 
@@ -112,7 +112,7 @@ To ensure meaningful insights:
 - Only locations with populations above 1,000,000 were included to reduce noise from under-resourced micro-states;
 - Locations must have recorded at least 5,000 cases per million prior to vaccination, to focus the analysis on countries with significant viral spread relative to size.
 
-**Strong Impact**
+### Strong Impact
 
 These countries demonstrated substantial reductions in both cases and deaths per million after vaccination began. All saw declines greater than 50% in both metrics, and case-fatality rates remaining relatively stable with variance of less than 0.45%:
 
@@ -124,7 +124,7 @@ These countries demonstrated substantial reductions in both cases and deaths per
 
 These results suggest a strong correlation between vaccine rollout and improved pandemic outcomes.
 
-**Limited or Negative Impact**
+### Limited or Negative Impact
 
 In contrast, the following countries experienced a significant increase in cases and deaths per million following the introduction of vaccines:
 
@@ -178,4 +178,4 @@ The technical analysis involved the use of the following tools:
 
 ## Data Source
 
-**COVID-19 Data:** [Our World in Data GitHub Repo] (https://github.com/owid/covid-19-data)
+**COVID-19 Data:** [Our World in Data GitHub Repo](https://github.com/owid/covid-19-data)
