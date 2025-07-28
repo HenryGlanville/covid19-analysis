@@ -3,7 +3,9 @@
 ## Project Overview
 
 This project involved conducting SQL-based analysis on a global COVID-19 dataset comprising over 400,000 records across 245 regions, countries and territories. The data was independently cleaned and analysed using SQL to uncover trends in reported cases, deaths and vaccinations.
+
 An interactive Tableau dashboard was developed to visualise these trends at both the global level and for individual locations, offering insights into the disease's impact and assessing the effectiveness of vaccination protocols across countries and continents from January 2020 to August 2024.
+
 The goal is to provide a clear and accessible breakdown of the pandemic's scale, the findings from which can offer guidance for informed decision-making, resource allocation, and the development of effective public health strategies.
 
 
