@@ -28,28 +28,13 @@ The primary objectives of this analysis are to:
 
 This project primarily used data compiled by Our World in Data, which consolidates COVID-19 statistics from the World Health Organisation (WHO), the United Nations (UN) and official government health departments. Three main datasets were used:
 
-- *"cases_and_deaths.csv"* - Daily reported COVID-19 cases and deaths by location;
-- *"vaccinations.csv"* - Daily vaccination totals by location;
-- *"population_2022.csv"* - 2022 population figures for each country/territory.
+- *cases_and_deaths.csv* - Daily reported COVID-19 cases and deaths by location;
+- *vaccinations.csv* - Daily vaccination totals by location;
+- *population_2022.csv* - 2022 population figures for each country/territory.
 
-These datasets were cleaned and consolidated into a single SQL table named CovidData, where each row represents a daily observation for a specific location within the time period of January 2020 to August 2024. This unified format allowed for consistent analysis of relevant pandemic metrics by date and location. This table includes both daily and weekly figures to smooth short-term volatility and enable clearer trend analysis.
+These datasets were cleaned and consolidated into a single SQL table named `CovidData`, where each row represents a daily observation for a specific location within the time period of January 2020 to August 2024. This unified format allowed for consistent analysis of relevant pandemic metrics by date and location.
 
-Key variables include:
-
-- Location and Time
-  - `location`, `date`, `iso_code`
-
-- Cases and Deaths
-  - `new_cases`, `weekly_cases`, `total_cases`
-  - `new_deaths`, `weekly_deaths`, `total_deaths`
-
-- Vaccinations
-  - `daily_vaccinations`, `weekly_vaccinations`, `total_vaccinations`
-  - `daily_people_vaccinated`, `weekly_people_vaccinated`, `people_vaccinated`
-  - `people_fully_vaccinated`
-
-- Population
-  - `population`
+The constructed table consisted of the following fields:
 
 | Field | Description |
 | ------ | ------------- |
@@ -64,7 +49,7 @@ Key variables include:
 | `people_fully_vaccinated` | Total number of people who received all doses prescribed by the initial vaccination protocol. |
 | `population` | Population values as of end of 2022. |
 
-Cumulative and rolling values are tracked to support both point-in-time metrics and trend analysis. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
+This table tracks cumulative and rolling values to support both point-in-time metrics and trend analysis, using aggregated weekly figures alongside daily numbers to smooth short-term volatility. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
 
 
 ## Executive Summary
