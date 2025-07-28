@@ -1,6 +1,5 @@
 # COVID-19 Global Trends and Vaccination Impact (2020-2024)
 
-
 ## Project Overview
 
 This project involved conducting SQL-based analysis on a global COVID-19 dataset comprising over 400,000 records across 245 regions, countries and territories. The data was independently cleaned and analysed using SQL to uncover trends in reported cases, deaths and vaccinations.
@@ -8,8 +7,6 @@ This project involved conducting SQL-based analysis on a global COVID-19 dataset
 An interactive Tableau dashboard was developed to visualise these trends at both the global level and for individual locations, offering insights into the disease's impact and assessing the effectiveness of vaccination protocols across countries and continents from January 2020 to August 2024.
 
 The goal is to provide a clear and accessible breakdown of the pandemic's scale, the findings from which can offer guidance for informed decision-making, resource allocation, and the development of effective public health strategies.
-
-
 
 ## Objectives
 
@@ -24,8 +21,6 @@ The primary objectives of this analysis are to:
 - Explore the efficacy of vaccine rollouts over time by assessing their relationship with trends in cases and deaths;
 
 - Develop a clear and accessible visual dashboard for users to explore these trends interactively.
-
-
 
 ## Data Structure Overview
 
@@ -67,8 +62,6 @@ China led in total vaccinations (nearly 3.5 billion), while Gibraltar reported t
 Vaccine rollout impacts varied significantly. In Morocco, both cases and deaths declined by over 80% in the 120 days following, indicating a strong response. Conversely, countries such as Uruguay experienced sharp increases of over 500% in cases and 850% in deaths, potentially due to variant-driven surges, delayed rollouts or policy relaxation.
 
 An interactive Tableau dashboard was developed to allow further exploration of trends by location, metric and timeframe. This can be accessed here: [tableau dashboard](https://public.tableau.com/views/CovidDashboard_17470590080560/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-
 
 ## Key Insights
 
@@ -139,10 +132,7 @@ In contrast, the following countries experienced a significant increase in cases
 | Cuba |	0.24% |	518.29%	| 752.06% |
 | Estonia	| 0.34%	| 280.51%	| 486.99% |
 
-
 These trends may reflect delayed vaccine effects, limited early coverage or other epidemiological  or behavioural factors (such as variant spread or policy relaxation) that masked or diminished the expected benefits of vaccination.
-
-
 
 ## Technical Details
 
@@ -151,8 +141,6 @@ The technical analysis involved the use of the following tools:
 - **Tableau** for interactive dashboard design and visual storytelling;
 - **MySQL** for database management;
 - **Terminal** for importing the dataset from the online source.
-
-
 
 ## Caveats and Assumptions
 
@@ -181,8 +169,6 @@ The technical analysis involved the use of the following tools:
 - **Inconclusive post-vaccine increases:** Increases in cases and deaths post-rollout may reflect unrelated factors such as new variants, relaxed restrictions or limited early coverage, rather than vaccine inefficacy. 
 - **Uncontrolled external influences:** Broader public health policies, behavioural shifts and deployment timing during surges were not directly accounted for but likely influenced trends.
 - **Immune protection lag:** The analysis assumes vaccine efficacy immediately upon first dose, but real-word immunity builds over time with additional doses, which may delay observable effects.
-
-
 
 ## Data Source
 
