@@ -85,21 +85,21 @@ As of August 2024:
 
 ### Country-level Highlights
 
-- Highest Total Cases: The United States (103,436,829), China (99,373,219) and India (45,041,748) reported the highest total cases, likely due to having the three largest populations;
+- **Highest Total Cases:** The United States (103,436,829), China (99,373,219) and India (45,041,748), reflecting population size and reporting capacity.
 
-- Highest Total Cases per Million: Cyprus (777,237), Brunei (774,435) and San Marino (750,727) has the highest case rater per million, reflecting high transmission relative to the population size of these smaller nations;
+- **Highest Total Cases per Million:** Cyprus (777,237), Brunei (774,435) and San Marino (750,727), indicating high transmission relative to small population size.
 
-- Highest Total Deaths: The United States (1,193,165), Brazil (702,116) and India (533,623) reported the highest number of total deaths;
+- **Highest Total Deaths:** The United States (1,193,165), Brazil (702,116) and India (533,623).
 
-- Highest Total Deaths per Million: Peru (6490), Bulgaria (5706) and Bosnia and Herzegovina (5069) had the highest total deaths per million;
+- **Highest Total Deaths per Million:** Peru (6490), Bulgaria (5706) and Bosnia and Herzegovina (5069), suggesting severe outbreaks and/or healthcare strain.
 
-- Highest Case-Fatality Rate (minimum 10,000 cases): Yemen (18.07%), Sudan (7.89%) and Syria (5.51%) recorded the highest case-fatality rates, likely due to underreporting and strained healthcare systems from conflict or lack of resources;
+- **Highest Case-Fatality Rate (minimum 10,000 cases):** Yemen (18.07%), Sudan (7.89%) and Syria (5.51%), likely linked to conflict zones and limited healthcare infrastructure.
 
-- Highest Total Vaccinations: China (3,491,077,000), India (2,206,868,000) and the United States (676,728,782) administered the most vaccine doses, again likely due to having enough resources and the largest populations;
+- **Highest Total Vaccinations:** China (3,491,077,000), India (2,206,868,000) and the United States (676,728,782), reflecting both large populations and vaccine supplies.
 
-- Highest Total People Vaccinated: China (1,310,292,000), India (1,027,438,924) and the United States (270,227,181) also recorded the highest numbers of people receiving at least one dose;
+- **Highest Total People Vaccinated:** China (1,310,292,000), India (1,027,438,924) and the United States (270,227,181).
 
-- Highest Percent Population Vaccinated: Gibraltar (129.07%), Tokelau (116.38%) and Qatar (105.83%) had the highest coverage rates and all exceeded 100% vaccination. This reflects how their data includes non-citizens.
+- **Highest Percent Population Vaccinated:** Gibraltar (129.07%), Tokelau (116.38%) and Qatar (105.83%), with values over 100% due to inclusion of non-citizens.
 
 ### Vaccination Rollout Impact
 
