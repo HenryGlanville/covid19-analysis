@@ -110,7 +110,7 @@ To ensure meaningful insights:
 - Only locations with populations above 1,000,000 were included to reduce noise from under-resourced micro-states;
 - Locations must have recorded at least 5,000 cases per million prior to vaccination, to focus the analysis on countries with significant viral spread relative to size.
 
-### Strong Impact
+### Strong Rollout Impact
 
 These countries demonstrated substantial reductions in both cases and deaths per million after vaccination began. All saw declines greater than 50% in both metrics, and case-fatality rates remaining relatively stable with variance of less than 0.45%:
 
@@ -122,7 +122,7 @@ These countries demonstrated substantial reductions in both cases and deaths per
 
 These results suggest a strong correlation between vaccine rollout and improved pandemic outcomes.
 
-### Limited or Negative Impact
+### Limited or Negative Rollout Impact
 
 In contrast, the following countries experienced a significant increase in cases and deaths per million following the introduction of vaccines:
 
