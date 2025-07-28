@@ -49,8 +49,6 @@ The constructed table consisted of the following fields:
 
 Cumulative and rolling values are tracked to support both point-in-time metrics and trend analysis, using aggregated weekly figures alongside daily numbers to smooth short-term volatility. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
 
-
-
 ## Executive Summary
 
 As of August 2024, over 775 million COVID-19 cases and 7 million deaths have been reported globally. The United States recorded the highest totals, exceeding 100 million cases and 1 million deaths.
@@ -61,7 +59,9 @@ China led in total vaccinations (nearly 3.5 billion), while Gibraltar reported t
 
 Vaccine rollout impacts varied significantly. In Morocco, both cases and deaths declined by over 80% in the 120 days following, indicating a strong response. Conversely, countries such as Uruguay experienced sharp increases of over 500% in cases and 850% in deaths, potentially due to variant-driven surges, delayed rollouts or policy relaxation.
 
-An interactive Tableau dashboard was developed to allow further exploration of trends by location, metric and timeframe. This can be accessed here: [tableau dashboard](https://public.tableau.com/views/CovidDashboard_17470590080560/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+An interactive Tableau dashboard was developed to allow further exploration of trends by location, metric and timeframe. This can be accessed here: [Tableau dashboard](https://public.tableau.com/views/CovidDashboard_17470590080560/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="1710" height="1071" alt="Dashboard" src="https://github.com/user-attachments/assets/a5e82f92-60f7-4723-8f45-350527a7e111" />
 
 ## Key Insights
 
