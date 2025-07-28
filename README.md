@@ -49,7 +49,7 @@ The constructed table consisted of the following fields:
 | `people_fully_vaccinated` | Total number of people who received all doses prescribed by the initial vaccination protocol. |
 | `population` | Population values as of end of 2022. |
 
-This table tracks cumulative and rolling values to support both point-in-time metrics and trend analysis, using aggregated weekly figures alongside daily numbers to smooth short-term volatility. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
+Cumulative and rolling values are tracked to support both point-in-time metrics and trend analysis, using aggregated weekly figures alongside daily numbers to smooth short-term volatility. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
 
 
 ## Executive Summary
