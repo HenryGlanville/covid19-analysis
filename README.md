@@ -35,19 +35,19 @@ These datasets were cleaned and consolidated into a single SQL table named Covid
 Key variables include:
 
 - Location and Time
-  - 'location', 'date', 'iso_code'
+  - `location`, `date`, `iso_code`
 
 - Cases and Deaths
-  - 'new_cases', 'weekly_cases', 'total_cases'
-  - 'new_deaths', 'weekly_deaths', 'total_deaths'
+  - `new_cases`, `weekly_cases`, `total_cases`
+  - `new_deaths`, `weekly_deaths`, `total_deaths`
 
 - Vaccinations
-  - 'daily_vaccinations', 'weekly_vaccinations', 'total_vaccinations'
-  - 'daily_people_vaccinated', 'weekly_people_vaccinated', 'people_vaccinated'
-  - 'people_fully_vaccinated'
+  - `daily_vaccinations`, `weekly_vaccinations`, `total_vaccinations`
+  - `daily_people_vaccinated`, `weekly_people_vaccinated`, `people_vaccinated`
+  - `people_fully_vaccinated`
 
 - Population
-  - 'population'
+  - `population`
 
 Cumulative and rolling values are tracked to support both point-in-time metrics and trend analysis. This structured format allows for flexible querying and filtering, and forms the basis of both the SQL analysis and Tableau dashboard. 
 
