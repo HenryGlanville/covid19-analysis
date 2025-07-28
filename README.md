@@ -146,7 +146,7 @@ The technical analysis involved the use of the following tools:
 - **SQL** for data preparation, cleaning and analysis using techniques such as JOINs, CTEs, window functions and pivoting;
 - **Tableau** for interactive dashboard design and visual storytelling;
 - **MySQL** for database management;
-- **Terminal** for importing of the dataset from the online source.
+- **Terminal** for importing the dataset from the online source.
 
 
 ## Caveats and Assumptions
